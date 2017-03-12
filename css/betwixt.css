@@ -1,4 +1,54 @@
-h1,h3{
+.bluefont{
     color:#05c5ff;
 }
 
+.leftalign{
+    text-align: left;   
+}
+
+h1{
+    font-weight:700;   
+}
+h2{
+       font-family: 'Amatic SC', 'Helvetica', 'Arial', sans-serif;
+    font-size:44px;
+}
+
+.text-vertical-center h1{
+    font-size:6.5em;
+    margin: 3.5em 0 0 0;
+    font-family: 'Amatic SC', 'Helvetica', 'Arial', sans-serif;
+}
+
+
+p {
+  font-size: 18px;  
+}
+
+.header{
+display: table;
+position: relative;
+width: 100%;
+height: 70%;
+background: url(../img/betwixt1.jpg) no-repeat center center scroll;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+background-size: cover;
+-o-background-size: cover;
+}
+
+.banner1{
+   background: url(../img/betwixt2.jpg) no-repeat top center scroll;
+     -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.banner2{
+   background: url(../img/mbira.jpg) no-repeat center center scroll; 
+     -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
