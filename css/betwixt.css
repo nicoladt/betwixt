@@ -64,3 +64,34 @@ div#photos a img{
 	max-width:100%;
 
 }
+
+
+@media screen and (min-width:600px) and (max-width: 1000px) {
+
+
+div#photos{
+    text-align:center;
+
+}
+
+div#photos a img{
+	max-width:200px;
+}
+
+
+}
+
+@media screen  and (min-width:200px) and (max-width: 599px){
+
+div#photos{
+    text-align:center;
+
+}
+div#photos a img{
+	max-width:200px;
+}
+
+
+
+
+}
