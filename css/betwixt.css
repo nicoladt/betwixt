@@ -503,7 +503,7 @@ padding:2% 4% 0% 0%;}
 
     .hero{flex-direction:column;min-height:auto;}
     .hero-content{flex:none;max-width:100%;padding:56px 24px 40px;}
-    .hero h1{font-size:clamp(12rem, 5vw + 1rem, 15rem);}
+    .hero h1{font-size:clamp(11rem, 5vw + 1rem, 15rem);}
     .hero p{font-size:1.7rem;}
     .hero-image{flex:none;height:350px;}
     .hero{flex-direction:column;min-height:auto;}
