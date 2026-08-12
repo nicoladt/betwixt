@@ -1,0 +1,101 @@
+.bluefont{
+    color:#05c5ff;
+}
+
+.leftalign{
+    text-align: left;
+}
+
+h1{
+    font-weight:100;
+    text-transform: uppercase;
+}
+h2{
+       font-family: 'Alegreya Sans', 'Helvetica', 'Arial', sans-serif;
+    font-size:3em;
+    font-weight:100;
+    text-transform: uppercase;
+}
+
+.text-vertical-center h1{
+    font-size:6.5em;
+    font-weight:100;
+    margin: 3.5em 0 0 0;
+    font-family: 'Alegreya Sans', 'Helvetica', 'Arial', sans-serif;
+}
+
+
+p {
+  font-size: 18px;
+}
+
+.header{
+display: table;
+position: relative;
+width: 100%;
+height: 70%;
+background: url(../img/banner1.jpg) no-repeat center center scroll;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+background-size: cover;
+-o-background-size: cover;
+}
+
+.banner1{
+   background: url(../img/banner2.jpg) no-repeat top center scroll;
+     -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.banner2{
+   background: url(../img/banner3.jpg) no-repeat center center scroll;
+     -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+
+div#photos{
+  text-align:justify;
+
+}
+
+div#photos a img{
+    margin:20px;
+	max-width:100%;
+
+}
+
+
+@media screen and (min-width:600px) and (max-width: 1000px) {
+
+
+div#photos{
+    text-align:center;
+
+}
+
+div#photos a img{
+	max-width:80%;
+}
+
+
+}
+
+@media screen  and (min-width:200px) and (max-width: 599px){
+
+div#photos{
+    text-align:center;
+
+}
+div#photos a img{
+	max-width:80%;
+}
+
+
+
+
+}
