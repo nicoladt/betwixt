@@ -334,6 +334,27 @@ padding:2% 4% 0% 0%;}
     margin-bottom:22px;
   }
 
+
+  .gig-date-future{
+    font-family:'Poppins', sans-serif;
+    font-weight:700;
+    font-size:1.4rem;
+
+    color:var(--lime);
+    padding-top:2px;
+  }
+
+  .gig-location-future{
+    color:#b0b0b0;
+    font-size:1.3rem;
+    text-align:right;
+    padding-top:2px;
+  }
+
+  .gig-row:last-of-type{
+    margin-bottom:48px;
+  }
+
   /* ---------- ARCHIVE / PAST GIGS ---------- */
   .archive{
     background:var(--lime);
