@@ -46,7 +46,10 @@ h3{
   letter-spacing: 2%;
 }
 
-
+h4{
+  font-size:2rem!important;
+  letter-spacing: 2%;
+}
 
 p.tagline{
 
@@ -215,6 +218,7 @@ p{
     color:var(--black);
     border-color:var(--black);
   }
+
   .btn-outline-black:hover{background:var(--black);color:var(--white);}
 
   .btn-solid-white{
@@ -223,6 +227,13 @@ p{
     border-color:var(--white);
   }
   .btn-solid-white:hover{background:transparent;color:var(--white);}
+
+  .btn-tickets{
+    max-height:44px;
+    display:inline-flex;
+    align-items:center;
+    justify-content: center;
+  }
 
   .hero-image{
     flex:0 0 50%;
@@ -338,7 +349,7 @@ padding:2% 4% 0% 0%;}
   .gig-date-future{
     font-family:'Poppins', sans-serif;
     font-weight:700;
-    font-size:1.4rem;
+    font-size:1.6rem;
 
     color:var(--lime);
     padding-top:2px;
@@ -347,8 +358,8 @@ padding:2% 4% 0% 0%;}
   .gig-location-future{
     color:#b0b0b0;
     font-size:1.3rem;
-    text-align:right;
-    padding-top:2px;
+    font-weight:400;
+    padding-top:8px;
   }
 
   .gig-row:last-of-type{
@@ -372,7 +383,7 @@ padding:2% 4% 0% 0%;}
 
   .gig-row{
     display:grid;
-    grid-template-columns:130px 1fr 220px;
+    grid-template-columns:1fr 3fr 1fr;
     gap:24px;
     padding:26px 0;
     border-bottom:1px solid rgba(17,17,17,0.18);
@@ -387,9 +398,7 @@ padding:2% 4% 0% 0%;}
     padding-top:2px;
   }
 
-  .gig-acts p{
-    line-height:1.6;
-  }
+
 
   .gig-acts .headliner{
     font-weight:700;
@@ -398,6 +407,9 @@ padding:2% 4% 0% 0%;}
   .gig-acts .performer{
 
     text-decoration-color:rgba(17,17,17,0.55);
+    padding:0px;
+    margin-bottom: 8px;
+    align-content:center;
   }
 
   .gig-note{
